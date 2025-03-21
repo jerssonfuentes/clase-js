@@ -27,6 +27,6 @@ function validarDelimitadores() {
       
     } else {
       resultadoElement.textContent = " La expresión NO está equilibrada.";
-      resultadoElement.style.color = "red";
+    
     }
   }

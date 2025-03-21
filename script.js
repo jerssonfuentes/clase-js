@@ -24,9 +24,7 @@ function validarDelimitadores() {
 
     if (esEquilibrada(expresion)) {
       resultadoElement.textContent = " La expresión está equilibrada.";
-      
     } else {
       resultadoElement.textContent = " La expresión NO está equilibrada.";
-    
     }
   }

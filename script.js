@@ -23,10 +23,10 @@ function validarDelimitadores() {
   
 
     if (esEquilibrada(expresion)) {
-      resultadoElement.textContent = "✅ La expresión está equilibrada.";
-      resultadoElement.style.color = "green";
+      resultadoElement.textContent = " La expresión está equilibrada.";
+      
     } else {
-      resultadoElement.textContent = "❌ La expresión NO está equilibrada.";
+      resultadoElement.textContent = " La expresión NO está equilibrada.";
       resultadoElement.style.color = "red";
     }
   }

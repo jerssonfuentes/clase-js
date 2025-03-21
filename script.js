@@ -21,8 +21,8 @@ function validarDelimitadores() {
     const resultadoElement = document.getElementById("resultado");
     console.log(esEquilibrada(expresion));
     if (esEquilibrada(expresion)) {
-      resultadoElement.innerText = " La expresión está equilibrada.";
+      resultadoElement.textContent = " La expresión está equilibrada.";
     } else {
-      resultadoElement.innerText = " La expresión NO está equilibrada.";
+      resultadoElement.textContent = " La expresión NO está equilibrada.";
     }
   }

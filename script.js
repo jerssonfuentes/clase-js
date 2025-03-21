@@ -21,7 +21,7 @@ function validarDelimitadores() {
       return pila.length === 0;
     }
   
-    // Validar la expresión y mostrar el resultado
+
     if (esEquilibrada(expresion)) {
       resultadoElement.textContent = "✅ La expresión está equilibrada.";
       resultadoElement.style.color = "green";
